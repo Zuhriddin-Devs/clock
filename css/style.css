@@ -30,3 +30,16 @@ body {
     font-size: 68px;
     text-align: center;
 }
+
+/* RESPONSIVE DESIGN */
+@media screen and (max-width:768px) {
+    .clock {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width:468px) {
+    .clock {
+        font-size: 30px;
+    }
+}
